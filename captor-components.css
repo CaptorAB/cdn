@@ -234,6 +234,7 @@ td {
 
     .facttable.firstheader.evenrowsgray ul li {
         display: inline-block;
+        padding: revert;
         vertical-align: bottom; 
         
     }
