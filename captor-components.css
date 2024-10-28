@@ -47,6 +47,11 @@ ol {
   margin-top: 2rem;
 }
 
+#performance-indicators {
+  padding-top: 62px;
+  margin-top: 72px;
+}
+
 .facttable.evenrowsgray li:nth-child(odd) {
   background: #fff;
 }
@@ -225,51 +230,8 @@ td {
   background: #fff;
 }
 
-.co2intensity {
-  font-family: "Poppins";
-  font-weight: 600;
-  font-size: 50px;
-  color: black;
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltiptext {
-  font-size: 12px;
-  font-family: "Poppins";
-  font-weight: 400;
-  padding-bottom: 5px;
-  text-align: justify;
-  line-height: 1.6;
-}
-
-.co2intensity .tooltiptext::after {
-  content: " ";
-  position: absolute;
-  top: 50%;
-  right: 100%; /* To the left of the tooltip */
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent black transparent transparent;
-}
-
-.co2intensity .tooltiptext {
-  visibility: hidden;
-  width: 350px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 105%;
-}
-.co2intensity:hover .tooltiptext {
-  visibility: visible;
+.mobile {
+  display: none;
 }
 
 @media only screen and (max-width: 760px),
@@ -287,8 +249,9 @@ td {
   }
 
   .facttable.firstheader.evenrowsgray div {
-    padding-bottom: 2px;
+    padding: 4px;
   }
+
   .facttable.firstheader.evenrowsgray div:first-child {
     font-weight: bold;
   }
@@ -296,6 +259,19 @@ td {
   .facttable.firstheader.evenrowsgray.fundclass ul li {
     display: flex;
     width: 100%;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .facttable.firstheader.evenrowsgray.mobile li ul {
+    display: flex;
+    padding: 7px 10px;
+  }
+
+  .desktop {
+    display: none;
   }
 
   /* Force table to not be like tables anymore */
@@ -360,8 +336,8 @@ td {
   }
 
   /*
-	Label the data
-	*/
+Label the data
+*/
   .overviewtable td:nth-of-type(2):before {
     content: "Klass";
   }
