@@ -230,29 +230,47 @@ td {
     background: #fff;
 }
 
-@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+.mobile {
+    display: none;
+}
 
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
     .facttable.firstheader.evenrowsgray ul li {
         display: inline-block;
         padding: revert;
-        vertical-align: bottom; 
-        
+        vertical-align: bottom;
     }
-    .facttable.firstheader.evenrowsgray li {width: 40%;}
-    .facttable.firstheader.evenrowsgray li:first-of-type {width: 20%;}
+    .facttable.firstheader.evenrowsgray li {
+        width: 40%;
+    }
+    .facttable.firstheader.evenrowsgray li:first-of-type {
+        width: 20%;
+    }
 
-    
-    .facttable.firstheader.evenrowsgray div {padding-bottom: 2px;}
-    .facttable.firstheader.evenrowsgray div:first-child {font-weight: bold;} 
-    
+    .facttable.firstheader.evenrowsgray div {
+        padding-bottom: 2px;
+    }
+    .facttable.firstheader.evenrowsgray div:first-child {
+        font-weight: bold;
+    }
+
     .facttable.firstheader.evenrowsgray.fundclass ul li {
         display: flex;
-        width: 100%
-        
+        width: 100%;
     }
-      
-    
 
+    .mobile {
+        display: block;
+    }
+
+    .facttable.firstheader.evenrowsgray.mobile li ul {
+        display: flex;
+        padding: 7px 10px;
+    }
+
+    .desktop {
+        display: none;
+    }
 
     /* Force table to not be like tables anymore */
     .overviewtable table,
@@ -354,4 +372,7 @@ td {
         float: right;
         color: #fff;
     }
+}
+.facttable .li[title] {
+    font-weight: bold;
 }
