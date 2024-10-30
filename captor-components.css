@@ -4,104 +4,104 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
-  }
-  
-  body {
+}
+
+body {
     font-size: 16px;
     font-family: "Proxima Nova", sans-serif;
     font-weight: 300;
     margin: 0;
     line-height: 1;
-  }
-  
-  ul,
-  ol {
+}
+
+ul,
+ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-  }
-  
-  .col-md-6 {
+}
+
+.col-md-6 {
     flex: 0 0 50%;
     max-width: 50%;
-  }
-  
-  .col-12,
-  .col-sm-12 {
+}
+
+.col-12,
+.col-sm-12 {
     flex: 0 0 100%;
     max-width: 100%;
-  }
-  
-  .col,
-  .col-12,
-  .col-sm-12,
-  .col-md-6 {
+}
+
+.col,
+.col-12,
+.col-sm-12,
+.col-md-6 {
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
     min-height: 1px;
-  }
-  
-  .portfolio-period-returns {
+}
+
+.portfolio-period-returns {
     margin-top: 2rem;
-  }
-  
-  #performance-indicators {
+}
+
+#performance-indicators {
     padding-top: 62px;
     margin-top: 72px;
-  }
-  
-  .facttable.evenrowsgray li:nth-child(odd) {
+}
+
+.facttable.evenrowsgray li:nth-child(odd) {
     background: #fff;
-  }
-  
-  .facttable ul li:nth-child(odd) {
+}
+
+.facttable ul li:nth-child(odd) {
     background: #f2f4f2;
-  }
-  
-  .facttable.evenrowsgray li:nth-child(even) {
+}
+
+.facttable.evenrowsgray li:nth-child(even) {
     background: #f2f4f2;
-  }
-  
-  .facttable ul li:nth-child(even) {
+}
+
+.facttable ul li:nth-child(even) {
     background: #fff;
-  }
-  
-  .facttable.firstheader li:first-child {
+}
+
+.facttable.firstheader li:first-child {
     font-weight: 700;
-  }
-  
-  .facttable ul li {
+}
+
+.facttable ul li {
     display: flex;
     padding: 7px 10px;
-  }
-  
-  .portfolio-period-returns .facttable ul li div:not(:first-child),
-  .facttable.portfolio-monthly-returns ul li div:not(:first-child) {
+}
+
+.portfolio-period-returns .facttable ul li div:not(:first-child),
+.facttable.portfolio-monthly-returns ul li div:not(:first-child) {
     text-align: center;
     font-size: 14px;
     margin: 0.75rem;
-  }
-  
-  .portfolio-period-returns .facttable ul li div,
-  .facttable.portfolio-monthly-returns ul li div {
+}
+
+.portfolio-period-returns .facttable ul li div,
+.facttable.portfolio-monthly-returns ul li div {
     color: #676767;
     font-size: 12px;
-  }
-  
-  .facttable ul li p,
-  .facttable ul li div {
+}
+
+.facttable ul li p,
+.facttable ul li div {
     flex: 1;
     color: #676767;
     font-size: 14px;
     line-height: 1.1;
-  }
-  
-  .portfolio-period-returns h4,
-  .value-performance-time-series h4,
-  .facttable.portfolio-monthly-returns h4,
-  .relative-performance-time-series h4 {
+}
+
+.portfolio-period-returns h4,
+.value-performance-time-series h4,
+.facttable.portfolio-monthly-returns h4,
+.relative-performance-time-series h4 {
     font-size: 20px;
     color: #2186c5;
     margin-top: 0.5rem;
@@ -109,102 +109,102 @@ html {
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
-  }
-  
-  .portfolio-performance-indicators h4,
-  .portfolio-period-returns h4,
-  .value-performance-time-series h4,
-  .facttable.portfolio-monthly-returns h4,
-  .relative-performance-time-series h4 {
+}
+
+.portfolio-performance-indicators h4,
+.portfolio-period-returns h4,
+.value-performance-time-series h4,
+.facttable.portfolio-monthly-returns h4,
+.relative-performance-time-series h4 {
     font-size: 20px;
-  }
-  
-  .captor-sidebar header.sideTitle h4 {
+}
+
+.captor-sidebar header.sideTitle h4 {
     color: #2186c5;
     font-family: "Gotham Rounded-Book", sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-  }
-  
-  .captor-sidebar header.sideTitle {
+}
+
+.captor-sidebar header.sideTitle {
     margin-bottom: 14px;
-  }
-  
-  .captor-sidebar ul li div:first-child {
+}
+
+.captor-sidebar ul li div:first-child {
     color: #676767 !important;
     font-weight: 700;
-  }
-  
-  .portfolio-performance-indicators .facttable ul li div:first-child,
-  .portfolio-period-returns .facttable ul li div:first-child,
-  .value-performance-time-series .facttable ul li div:first-child,
-  .facttable.portfolio-monthly-returns .facttable ul li div:first-child,
-  .relative-performance-time-series .facttable ul li div:first-child {
+}
+
+.portfolio-performance-indicators .facttable ul li div:first-child,
+.portfolio-period-returns .facttable ul li div:first-child,
+.value-performance-time-series .facttable ul li div:first-child,
+.facttable.portfolio-monthly-returns .facttable ul li div:first-child,
+.relative-performance-time-series .facttable ul li div:first-child {
     font-weight: bold;
-  }
-  
-  .overviewtable {
+}
+
+.overviewtable {
     font-family: "Proxima Nova", sans-serif;
     color: #676767;
-  
+
     right: 0 !important;
     left: 0 !important;
-  }
-  
-  .overviewtable th {
+}
+
+.overviewtable th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #000000;
     color: white;
-  }
-  
-  .overviewtable td {
+}
+
+.overviewtable td {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-  }
-  
-  .overviewtable div.positive {
+}
+
+.overviewtable div.positive {
     color: green;
-  }
-  .overviewtable div.negative {
+}
+.overviewtable div.negative {
     color: red;
-  }
-  
-  .overviewtable td:first-child {
+}
+
+.overviewtable td:first-child {
     font-weight: bold;
-  
+
     text-align: left;
-  }
-  
-  .overviewtable .fundName {
+}
+
+.overviewtable .fundName {
     cursor: pointer;
-  }
-  .overviewtable th,
-  td {
+}
+.overviewtable th,
+td {
     padding: 15px;
     border-bottom: 1px solid #ddd;
-  }
-  
-  .overviewtable tr:nth-child(even of .show) {
+}
+
+.overviewtable tr:nth-child(even of .show) {
     background-color: white;
-  }
-  
-  .overviewtable button.button {
+}
+
+.overviewtable button.button {
     padding-right: 10px;
     float: right;
-  }
-  
-  .overviewtable tr.show button {
+}
+
+.overviewtable tr.show button {
     display: none;
-  }
-  
-  .overviewtable tr.noShow {
+}
+
+.overviewtable tr.noShow {
     display: none;
-  }
-  
-  .overviewtable button.click {
+}
+
+.overviewtable button.click {
     padding-right: 10px;
     background: none;
     float: right;
@@ -212,68 +212,66 @@ html {
     content: "\00BB";
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
-  }
-  
-  .overviewtable button.click:focus {
+}
+
+.overviewtable button.click:focus {
     outline: 0;
-  }
-  
-  .overviewtable tr.show button {
+}
+
+.overviewtable tr.show button {
     display: none;
-  }
-  
-  .overviewtable tr:nth-child(odd of .showMain) {
+}
+
+.overviewtable tr:nth-child(odd of .showMain) {
     background: #f2f4f2;
-  }
-  
-  .overviewtable tr:nth-child(even of .showMain) {
+}
+
+.overviewtable tr:nth-child(even of .showMain) {
     background: #fff;
-  }
-  
-  .mobile {
+}
+
+.mobile {
     display: none;
-  }
-  
-  @media only screen and (max-width: 760px),
-    (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
     .facttable.firstheader.evenrowsgray ul li {
-      display: inline-block;
-      padding: revert;
-      vertical-align: bottom;
+        display: inline-block;
+        padding: revert;
+        vertical-align: bottom;
     }
     .facttable.firstheader.evenrowsgray li {
-      width: 40%;
+        width: 40%;
     }
     .facttable.firstheader.evenrowsgray li:first-of-type {
-      width: 20%;
+        width: 20%;
     }
-  
+
     .facttable.firstheader.evenrowsgray div {
-      padding: 4px;
+        padding-bottom: 2px;
     }
-  
     .facttable.firstheader.evenrowsgray div:first-child {
-      font-weight: bold;
+        font-weight: bold;
     }
-  
+
     .facttable.firstheader.evenrowsgray.fundclass ul li {
-      display: flex;
-      width: 100%;
+        display: flex;
+        width: 100%;
     }
-  
+
     .mobile {
-      display: block;
+        display: block;
     }
-  
+
     .facttable.firstheader.evenrowsgray.mobile li ul {
-      display: flex;
-      padding: 7px 10px;
+        display: flex;
+        padding: 7px 10px;
     }
-  
+
     .desktop {
-      display: none;
+        display: none;
     }
-  
+
     /* Force table to not be like tables anymore */
     .overviewtable table,
     thead,
@@ -281,97 +279,100 @@ html {
     th,
     td,
     tr {
-      display: block;
+        display: block;
     }
-  
+
     /* Hide table headers (but not display: none;, for accessibility) */
     .overviewtable thead tr {
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
     }
-  
+
     .overviewtable tr {
-      border: 1px solid #000;
-      border-radius: 2px;
-      margin: 10px;
+        border: 1px solid #000;
+        border-radius: 2px;
+        margin: 10px;
     }
-  
+
     .overviewtable td {
-      /* Behave  like a "row" */
-      border: none;
-      border-bottom: 1px solid #eee;
-      position: relative;
-      padding-left: 50%;
-      padding-top: 1%;
-      padding-bottom: 1%;
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
-  
+
     .overviewtable td:nth-of-type(1) {
-      border: none;
-      border-bottom: 1px solid #eee;
-      position: relative;
-      background-color: #000000;
-      color: #fff;
-      text-align: left;
-      padding-left: 10%;
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        background-color: #000000;
+        color: #fff;
+        text-align: left;
+        padding-left: 10%;
     }
-  
+
     .overviewtable td:nth-of-type(11) {
-      border-bottom: None;
+        border-bottom: None;
     }
-  
+
     .overviewtable td:before {
-      /* Now like a table header */
-      position: absolute;
-      font-weight: bold;
-      text-align: left;
-      color: #000;
-      /* Top/left values mimic padding */
-  
-      left: 6px;
-      width: 30%;
-      padding-right: 10px;
-      white-space: nowrap;
+        /* Now like a table header */
+        position: absolute;
+        font-weight: bold;
+        text-align: left;
+        color: #000;
+        /* Top/left values mimic padding */
+
+        left: 6px;
+        width: 30%;
+        padding-right: 10px;
+        white-space: nowrap;
     }
-  
+
     /*
-  Label the data
-  */
+	Label the data
+	*/
     .overviewtable td:nth-of-type(2):before {
-      content: "Klass";
+        content: "Klass";
     }
     .overviewtable td:nth-of-type(3):before {
-      content: "Kurs";
+        content: "Kurs";
     }
     .overviewtable td:nth-of-type(4):before {
-      content: "Valuta";
+        content: "Valuta";
     }
     .overviewtable td:nth-of-type(5):before {
-      content: "YTD %";
+        content: "YTD %";
     }
     .overviewtable td:nth-of-type(6):before {
-      content: "Start datum";
+        content: "Start datum";
     }
     .overviewtable td:nth-of-type(7):before {
-      content: "Utdelande";
+        content: "Utdelande";
     }
     .overviewtable td:nth-of-type(8):before {
-      content: "Riskklass";
+        content: "Riskklass";
     }
     .overviewtable td:nth-of-type(9):before {
-      content: "ESG";
+        content: "ESG";
     }
     .overviewtable td:nth-of-type(10):before {
-      content: "Avgift";
+        content: "Avgift";
     }
     .overviewtable td:nth-of-type(11):before {
-      content: "ISIN";
+        content: "ISIN";
     }
-  
+
     .overviewtable button.click {
-      padding-right: 10px;
-      float: right;
-      color: #fff;
+        padding-right: 10px;
+        float: right;
+        color: #fff;
     }
-  }
+}
+.facttable .li[title] {
+    font-weight: bold;
+}
