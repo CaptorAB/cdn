@@ -126,3 +126,272 @@ header.sectionHeader.primary:after {
     max-width: 100%;
   }
 }
+body {
+  font-size: 16px;
+  font-family: Proxima Nova, sans-serif;
+  font-weight: 300;
+}
+#contentArea .innerWrap {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contentArea {
+  padding: 0 2.35765%;
+}
+#captor-components-root {
+  margin-top: 20px;
+}
+.single-funds .fundTop .sectionHeader {
+  margin-bottom: 88px;
+}
+header.sectionHeader h2,
+header.sectionHeader .title {
+  font-family: Gotham Rounded-Book, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.3;
+  letter-spacing: 1.9px;
+  color: #2186c5;
+  text-transform: uppercase;
+}
+header.sectionHeader {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+header.sectionHeader:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 140px;
+  max-width: 90%;
+  background: #2186c5;
+  margin: 5px auto 0;
+}
+header.sectionHeader.primary h2,
+header.sectionHeader.primary .title {
+  font-size: 40px;
+  line-height: 1.4;
+  letter-spacing: 2px;
+}
+header.sectionHeader.primary:after {
+  margin-top: 36px;
+}
+.single-funds .portfolio-period-returns h4,
+.single-funds .value-performance-time-series h4,
+.single-funds .facttable.portfolio-monthly-returns h4,
+.single-funds .relative-performance-time-series h4 {
+  font-size: 20px;
+  color: #2186c5;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+.single-funds h1,
+.single-funds h2,
+.single-funds h3,
+.single-funds h4 {
+  color: #2186c5;
+  font-family: Gotham Rounded-Book, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.single-funds #performance-indicators {
+  padding-top: 62px;
+  border-top: 1px dotted #979797;
+  margin-top: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.single-funds .fundTop {
+  padding-bottom: 62px;
+  border-bottom: 1px dotted #979797;
+  margin-bottom: 80px;
+}
+.single-funds .fundBottom {
+  display: flex;
+}
+.single-funds .fundBottom #flexContent {
+  flex: 1;
+  margin-right: 92px;
+}
+.single-funds .col-12,
+.single-funds .col-sm-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.single-funds .col,
+.single-funds .col-12,
+.single-funds .col-sm-12,
+.single-funds .col-md-6 {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  min-height: 1px;
+}
+.single-funds .col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.single-funds .facttable.indicators1 ul li:nth-child(odd),
+.single-funds .facttable.indicators2 ul li:nth-child(odd) {
+  background: #f2f4f2;
+}
+.single-funds .facttable.indicators1 ul li:nth-child(2n),
+.single-funds .facttable.indicators2 ul li:nth-child(2n) {
+  background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .captor-sidebar {
+    width: 220px;
+  }
+  .single-funds .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.hover__pointer {
+  background: #0284c7;
+  width: 20rem;
+  cursor: pointer;
+  box-shadow: 0 0.46875rem 2.1875rem #32325d08, 0 0.9375rem 1.40625rem #32325d08,
+    0 0.25rem 0.53125rem #32325d0d, 0 0.125rem 0.1875rem #32325d08;
+  border-radius: 5px;
+  color: #fff;
+  transition: 0.4s;
+  border: 1px solid #0284c7;
+  font-size: 13px;
+  padding: 4px 7px;
+}
+.react-calendar {
+  width: 350px;
+  max-width: 100%;
+  background: #fff;
+  border: 1px solid #a0a096;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+.react-calendar--doubleView {
+  width: 700px;
+}
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+.react-calendar__navigation {
+  display: flex;
+  height: 44px;
+  margin-bottom: 1em;
+}
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+}
+.react-calendar__navigation button:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+  font-size: 0.75em;
+  font-weight: 700;
+}
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: inherit;
+  font-size: 0.75em;
+  font-weight: 700;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+}
+.react-calendar__month-view__days__day--neighboringMonth,
+.react-calendar__decade-view__years__year--neighboringDecade,
+.react-calendar__century-view__decades__decade--neighboringCentury {
+  color: #757575;
+}
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  font: inherit;
+  font-size: 0.833em;
+}
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+  color: #ababab;
+}
+.react-calendar__month-view__days__day--neighboringMonth:disabled,
+.react-calendar__decade-view__years__year--neighboringDecade:disabled,
+.react-calendar__century-view__decades__decade--neighboringCentury:disabled {
+  color: #cdcdcd;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+}
+.react-calendar__tile--now {
+  background: #ffff76;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #ffffa9;
+}
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+}
+.react-calendar__tile--active {
+  background: #006edc;
+  color: #fff;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #1087ff;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+}
