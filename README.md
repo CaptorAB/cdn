@@ -10,7 +10,7 @@
 ```
 <h2>
 after pushing changes:</h2>
-put https://cdn.jsdelivr.net/gh/CaptorAB/cdn/captor-components.js
-    https://cdn.jsdelivr.net/gh/CaptorAB/cdn/captor-components.css
-    https://cdn.jsdelivr.net/gh/CaptorAB/cdn/style.css
+put https://cdn.jsdelivr.net/gh/CaptorAB/cdn/captor-components.js \
+    https://cdn.jsdelivr.net/gh/CaptorAB/cdn/captor-components.css \
+    https://cdn.jsdelivr.net/gh/CaptorAB/cdn/style.css \
     inside https://www.jsdelivr.com/tools/purge for file to update.
