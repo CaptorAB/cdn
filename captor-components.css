@@ -408,3 +408,10 @@ Label the data
   fill: #fff3cd;
   stroke: #ffeeba;
 }
+
+.timeseries-button.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
