@@ -409,7 +409,7 @@ Label the data
   stroke: #ffeeba;
 }
 
-.timeseries-button {
+.timeseries-button.row {
   display: flex;
   flex-wrap: wrap;
   margin-left: -15px;
